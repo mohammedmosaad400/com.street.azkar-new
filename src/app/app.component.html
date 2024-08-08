@@ -1,0 +1,43 @@
+<ion-app [dir]="(direction) ? 'rtl' : 'ltr'">
+  <!-- Tabs -->
+  <ion-tabs style="z-index: 1;">
+    <ion-header>
+      <ion-toolbar mode="ios"
+        style="--background:#333333; margin-top: 55px; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+        <ion-buttons slot="center">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title style="color: wheat;" (click)="goToHome()">
+          <span *ngIf="lang=='ar'">{{appName_ar}}</span>
+          <span *ngIf="lang=='en'">{{appName_en}}</span>
+          <img width="20" height="20" src="../assets/icon/favicon.png">
+        </ion-title>
+        <!-- <ion-icon *ngIf="url != 'home'" (click)="goToHome()" name="arrow-back-outline"
+          style="font-size: xx-large; color: white;"></ion-icon> -->
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-tab-bar style="--background : #333333; border-radius:15% 85% 11% 89% / 100% 0% 100% 0%;" slot="bottom">
+      <ion-tab-button style="--color:wheat; --color-selected	: white" tab="home">
+        <ion-icon name="home"></ion-icon>
+        {{ "Home" | i18n:"app.global.home" }}
+      </ion-tab-button>
+      <ion-tab-button style="--color:wheat; --color-selected	: white" tab="robot">
+        <ion-icon name="chatbox-ellipses"></ion-icon>
+        {{ "Robot" | i18n:"app.robot.title" }}
+      </ion-tab-button>
+      <ion-tab-button style="--color:wheat; --color-selected	: white" tab="menu">
+        <ion-icon name="menu"></ion-icon>
+        {{ "Menu" | i18n:"app.global.menu" }}
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+  <div class="ion-page" id="main-content">
+    <ion-content>
+      <ion-router-outlet></ion-router-outlet>
+    </ion-content>
+  </div>
+
+
+</ion-app>

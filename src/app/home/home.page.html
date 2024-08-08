@@ -1,0 +1,40 @@
+<ion-content  [dir]="rtl">
+  <img width="100%" height="55%" src="../../assets/high-quality/cover.png">
+
+  <!-- <h2 class="header" style="height: 2%;"> {{ 'robo_title' | i18n: 'app.wize.robo_title' }}</h2> -->
+  <div style="height: 45%; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+    <ion-card class="card" (click)="goToRobot()">
+      <ion-card-title>
+        <div
+          style="display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center;">
+          <img width="100%" height="80%" src="../../assets/icon/favicon.png">
+          <p class="title">
+            {{ 'robo_talk' | i18n: 'app.wize.robo_talk' }}
+          </p>
+        </div>
+      </ion-card-title>
+    </ion-card>
+
+    <ion-card class="card" (click)="goToAgeCalculator()">
+      <ion-card-title>
+        <div
+          style="display: flex; flex-direction: column; align-items: center; text-align: center; justify-content: center;">
+          <img width="100%" height="80%" src="../../assets/high-quality/notes.png">
+          <p class="title">
+            {{ 'robo_notes' | i18n: 'app.wize.robo_notes' }}
+          </p>
+        </div>
+      </ion-card-title>
+    </ion-card>
+  </div>
+
+</ion-content>
+
+<!-- <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+  <ion-fab-button (click)="goToRobot()">
+    <ion-icon name="chatbox-ellipses"></ion-icon>
+  </ion-fab-button>
+  <p>
+    {{ "Robot" | i18n:"app.robot.title" }}
+  </p>
+</ion-fab> -->

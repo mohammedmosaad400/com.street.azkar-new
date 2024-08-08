@@ -1,0 +1,96 @@
+<ion-content>
+  <br>
+  <div *ngIf="all_data.length == 0">
+    <b style="display: flex; flex-direction: row; justify-content: center; margin-top: 30px;">
+      {{ 'pls_add_notes' | i18n: 'app.notes.pls_add_notes' }}</b>
+    <lottie-player style="height: 150px;" slot="end" autoplay loop src="assets/splash.json"></lottie-player>
+  </div>
+
+  <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+    <!-- <img src="assets/images/growth.png" width="100" height="100" /> -->
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <!-- <b>
+        {{ 'title' | i18n: 'app.age_calculator.title' }}
+      </b> -->
+      <b>
+        {{ 'my_notes' | i18n: 'app.notes.my_notes' }}
+      </b>
+    </div>
+  </div>
+
+  <ion-list style="margin: 15px;">
+    <div (click)="openModal(row)" style="text-align: start; background-image: url('../../../../assets/high-quality/notes.png'); background-size: cover;" class="ion-activatable ripple-parent rounded-rectangle"
+      *ngFor="let row of all_data">
+      <ion-ripple-effect></ion-ripple-effect>
+      <ion-label position="fixed" label-placement="fixed">
+        {{ 'robo_name' | i18n: 'app.wize.robo_name' }} :
+      </ion-label>
+      {{row.name}}
+      <br>
+      <ion-label position="fixed" label-placement="fixed">
+        {{ 'poultry_type' | i18n: 'app.wize.robo_age' }} :
+      </ion-label>
+      {{getCurrentAge(row)}}
+      {{ 'day' | i18n: 'app.global.day' }}
+      <br>
+      <ion-label position="fixed" label-placement="fixed">
+        {{ 'poultry_type' | i18n: 'app.age_calculator.notes' }} :
+      </ion-label>
+      {{row.notes}}
+      <br>
+
+      <ion-icon (click)="deleteTransaction(row)" style="float: left;" color="danger" name="trash-outline"></ion-icon>
+    </div>
+  </ion-list>
+
+</ion-content>
+
+<ion-modal style="margin-top: 55px;" trigger="open-modal" (willDismiss)="onWillDismiss($event)">
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-button (click)="cancel()">{{ 'cancel' | i18n: 'app.age_calculator.cancel' }}</ion-button>
+        </ion-buttons>
+        <ion-title>{{ 'my_notes' | i18n: 'app.notes.my_notes' }}</ion-title>
+        <ion-buttons slot="end">
+          <ion-button (click)="confirm()" [strong]="true">
+            {{ 'confirm' | i18n: 'app.age_calculator.confirm' }}</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <ion-item>
+        <ion-label position="fixed" label-placement="fixed">
+          {{ 'robo_name' | i18n: 'app.wize.robo_name' }}</ion-label>
+          <ion-input [(ngModel)]="masterRecord.name" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="fixed" label-placement="fixed">
+          {{ 'robo_age' | i18n: 'app.wize.robo_age' }}</ion-label>
+        <ion-input [(ngModel)]="masterRecord.age" type="number" placeholder="000"></ion-input>
+        {{ 'day' | i18n: 'app.wize.day' }}
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label position="fixed" label-placement="fixed">
+          {{ 'notes' | i18n: 'app.age_calculator.notes' }}</ion-label>
+        <ion-textarea [(ngModel)]="masterRecord.notes" placeholder=" {{ 'write' | i18n: 'app.age_calculator.write' }}"
+          [clearOnEdit]="true"></ion-textarea>
+      </ion-item>
+    </ion-content>
+  </ng-template>
+</ion-modal>
+
+<ion-popover trigger="open-modal" [isOpen]="all_data.length == 0">
+  <ng-template>
+    <ion-content class="ion-padding">
+      {{ 'pls_add_notes_float' | i18n: 'app.notes.pls_add_notes_float' }}
+    </ion-content>
+  </ng-template>
+</ion-popover>
+
+<ion-fab slot="fixed" vertical="bottom" horizontal="end">
+  <ion-fab-button id="open-modal">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>

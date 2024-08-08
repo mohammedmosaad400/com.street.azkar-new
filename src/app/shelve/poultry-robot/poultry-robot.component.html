@@ -1,0 +1,80 @@
+<ion-content>
+<!-- <div class="fixed-ads-place"> </div> -->
+
+<div class="chat">
+  <ion-content scroll-y="false" class="chat-history containerList">
+    <!-- messages container -->
+    <cdk-virtual-scroll-viewport itemSize="25" class="ion-content-scroll-host m-b-0 ulList containerListBackground"
+      #scrollBottom>
+      <!-- <virtual-scroll-element class="ion-content-scroll-host m-b-0 ulList containerListBackground" #scrollBottom> -->
+      <h1 *ngIf="messageList.length === 0"
+        style="display: flex; flex-direction: column; align-items: center; color: orange; margin-top: 10px; font-weight: bold; ">
+        {{ 'robo_ask' | i18n: 'app.wize.robo_ask' }} </h1>
+      <ul *ngFor="let message of messageList">
+        <li longPress (mouseLongPress)="showDialogOther(message)" class="clearfix liList" *ngIf="!message.isOwner">
+          <div class="message-data">
+            <img class="float-right" src="../../../assets/icon/favicon.png" style="height: 70px; width: 70px;" alt="avatar">
+          </div>
+          <div class="message other-message float-right" style="white-space: pre-wrap;">
+            <span id="message_to_change_size" style="overflow-wrap: anywhere;" style.fontSize="{{old_fontSize}}px">{{message.text}}</span>
+            <!-- <p class="small-date">{{message.time}}</p> -->
+            <div class="card-footer">
+              <ion-icon style="margin: 10px;" size="small" name="copy-outline"
+                (click)="copyToClipboard(message.text)"></ion-icon>
+              <ion-icon style="margin: 10px;" size="small" name="share-outline"
+                (click)="shareQuote(message.text)"></ion-icon>
+              <ion-label>{{ 'change font size' | i18n: 'app.global.change_font_size' }}</ion-label>
+              <ion-icon name="add-circle-outline" style="font-size: 25px;" (click)="increaseFont()"></ion-icon>
+              <ion-icon name="remove-circle-outline" style="font-size: 25px;" (click)="decreaseFont()"></ion-icon>
+            </div>
+          </div>
+
+        </li>
+        <!-- my message start -->
+        <li longPress (mouseLongPress)="showDialogMy(message)" class="clearfix liList" *ngIf="message.isOwner">
+          <div style="margin: 10px;" (click)="copyToClipboard(message.text)" class="message my-message float-left">
+            {{message.text}}
+            <!-- <p class="small-date">{{message.time}}</p> -->
+          </div>
+        </li>
+        <!-- my message end -->
+      </ul>
+      <!-- </virtual-scroll-element> -->
+    </cdk-virtual-scroll-viewport>
+  </ion-content>
+  <!-- send btn -->
+  <div *ngIf="watched_rewarded_ad" class="chat-message clearfix" style="margin-top: 20px;">
+    <span *ngIf="disabled" style="display: flex; justify-content: center; color: green;">{{ 'typing' | i18n: 'app.robot.typing' }}</span>
+    <div class="conversation-compose" style="background-color: white;">
+      <!-- <div class="emoji" [ngClass]="direction ? 'mirror' : ''">
+        <ion-icon style="color: white; font-size: larger;" name="mic-outline" (click)="speechInput()"></ion-icon>
+      </div> -->
+      <input (keyup.enter)="recognize()" [(ngModel)]="prompt" class="input-msg" name="input" autocomplete="off"
+        [placeholder]="'robo_ask' | i18n: 'app.wize.robo_ask'" autofocus />
+      <!-- upload image -->
+      <!-- <input type="file" id="fileLoader" #fileLoader name="files" title="Load File" hidden /> -->
+      <button [class.spinner]="disabled" class="send" [disabled]="disabled || prompt.length < 5 || speechActive"
+        (click)="recognize()" [ngClass]="direction ? 'mirror' : ''">
+        <div class="circle">
+          <ion-icon style="font-size: larger;" name="send-outline"></ion-icon>
+        </div>
+      </button>
+    </div>
+  </div>
+    <!-- watch ad btn -->
+    <div *ngIf="!watched_rewarded_ad"
+      style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 15px;">
+      <ion-button [class.ad_spinner]="disabled"
+        style="width: 90%; background-color: #000099; font-weight: bold; border-radius: 10px 10px;"
+        (click)="watchAdBtnClicked()">
+        <span *ngIf="!disabled">
+          <ion-icon name="play-circle-outline"></ion-icon>
+          &nbsp;
+          {{ 'watch_ad_btn' | i18n: 'app.admob.watch_ad_btn' }}
+        </span>
+      </ion-button>
+    </div>
+</div>
+
+
+</ion-content>

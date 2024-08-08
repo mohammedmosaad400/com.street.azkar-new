@@ -1,0 +1,44 @@
+.text-content {
+  min-height: 3rem;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  .card {
+    flex: 0 0 auto;
+    width: 40%;
+    height: 85%;
+    overflow: scroll;
+    // margin: 7px;
+    // padding: 7px;
+  }
+
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.header {
+  text-align: start;
+  padding: 2px;
+  color: brown;
+  font-family: 'pt-bold';
+}
+
+.title {
+  font-size: 14pt;
+  color: black;
+  font-family: long-text;
+  padding: 2px;
+  height: 5vh;
+}
+
+.subtitle {
+  font-size: 12pt;
+  color: brown;
+  font-family: long-text;
+}

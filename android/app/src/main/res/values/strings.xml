@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">روبوت متكلم</string>
+    <string name="title_activity_main">روبوت متكلم</string>
+    <string name="package_name">com.street.azkar</string>
+    <string name="custom_url_scheme">com.street.azkar</string>
+    <string name="admob_app_id">ca-app-pub-7980797173218475~2889227803</string>
+</resources>

@@ -1,0 +1,242 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+ion-alert.custom-alert {
+  --backdrop-opacity: 0.7;
+}
+
+.custom-alert .alert-button-group {
+  padding: 8px;
+}
+
+button.alert-button.alert-button-confirm {
+  background-color: var(--ion-color-success);
+  color: var(--ion-color-success-contrast);
+}
+
+.md button.alert-button.alert-button-confirm {
+  border-radius: 4px;
+}
+
+.ios .custom-alert button.alert-button {
+  border: 0.55px solid rgba(var(--ion-text-color-rgb, 0, 0, 0), 0.2)
+}
+
+.ios button.alert-button.alert-button-cancel {
+  border-right: 0;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 13px;
+}
+
+.ios button.alert-button.alert-button-confirm {
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+ion-button {
+  text-transform: none;
+}
+
+/* To Make Content Center in Screen */
+.row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Solve Label Direction RTL */
+[dir=rtl] {
+
+  .label-stacked.sc-ion-label-md-h,
+  .label-floating.sc-ion-label-md-h {
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+  }
+}
+
+
+
+@supports (-moz-appearance:none) {
+  .chrome-etc {
+    display: none;
+  }
+}
+
+@supports (-webkit-font-smoothing: antialiased) {
+  .firefox {
+    display: none;
+  }
+}
+
+.mirror {
+  transform: scaleX(-1);
+}
+
+.todo-filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.todo-filter-icons {
+  scale: 2;
+  margin: 5%;
+}
+
+.selected {
+  color: rgb(74, 74, 239);
+}
+
+.visit-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: medium;
+}
+
+
+
+@font-face {
+  font-family: 'long-text';
+  src: url('assets/fonts/simplified-arabic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pt-bold';
+  src: url('assets/fonts/pt-bold-heading.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'short-text';
+  src: url('assets/fonts/hebah-font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fancy';
+  src: url('assets/fonts/ReemKufiFun-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+// ::-webkit-scrollbar,
+// *::-webkit-scrollbar {
+//   display: none;
+//   overflow: hidden;
+// }
+
+// ion-content {
+//   overflow: hidden;
+//   --overflow: hidden;
+// }
+
+// .scroll-content {
+//   overflow: hidden;
+// }
+
+// ion-infinite-scroll.md.infinite-scroll-enabled.hydrated {
+//   overflow: scroll !important;
+//   height: 100% !important;
+// }
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+.center-loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.fixed-ads-place {
+  // position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+ 
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  border-top-color: #000000;
+  animation: spinner .8s linear infinite;
+}
+
+.quote {
+  color: black;
+  font-family: 'long-text' !important;
+  font-size: 18px;
+  padding: 10px;
+
+  background-color: hsl(33, 29.9%, 81.8%) !important;
+  background-repeat: repeat;
+  background-image: url("/src/assets/texture/book_texture.jpg");
+  background-size: cover;
+}
+
+.popup-modal {
+  border: 2px solid white;
+  border-radius: 10px 10px;
+  width: 95%;
+  max-height: 60%;
+  overflow: scroll;
+}

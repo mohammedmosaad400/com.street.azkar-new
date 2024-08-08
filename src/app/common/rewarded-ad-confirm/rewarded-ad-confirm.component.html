@@ -1,0 +1,28 @@
+
+<ion-icon (click)="dismiss()" style="font-size: 18pt; color: gray; margin: 5px;" name="close-circle"></ion-icon>
+
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+  <span class="mybtn" data="🔓"
+    style="text-align: center; margin: 10px; width: 20%;  background-color: #000099; color: white;border: 2px solid;  border-radius: 10px 10px;">
+    <ion-icon style="font-size: 26pt;" name="play-outline"></ion-icon>
+    <!-- <ion-icon name="lock-open-outline"></ion-icon> -->
+  </span>
+</div>
+
+<span style="display: flex; flex-direction: row; justify-content: center; text-align: center; color: black; font-size: 14pt; font-family: 'long-text'; font-weight: bold; padding: 10px;">
+  {{ title }}
+</span>
+<div class="modal-body" style="color: black;text-align: center; font-family: 'long-text';">
+  {{ message }}
+</div>
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 15px;">
+  <!-- <ion-button color="basic" style="width: 50%; color: black;" (click)="decline()">{{no}}</ion-button> -->
+  <ion-button [class.rewardedAd_spinner]="is_loading"
+    style="width: 90%; background-color: #000099;color: white; font-weight: bold; border-radius: 10px 10px;" (click)="accept()">
+    <span *ngIf="!is_loading">
+      <ion-icon name="play-circle-outline"></ion-icon>
+      &nbsp;
+      {{yes}}
+    </span>
+  </ion-button>
+</div>

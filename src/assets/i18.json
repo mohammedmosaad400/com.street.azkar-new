@@ -1,0 +1,1012 @@
+{
+    "app": {
+        "admob": {
+            "unlock_robot": {
+                "ar": "فتح الروبوت روبوت متكلم",
+                "en": "Open  robot",
+                "de": "Öffnen Sie den -Roboter"
+            },
+            "watch_ad_msg": {
+                "ar": "شاهد فيديو قصير لفتح هذه الخدمة مرة واحدة مجاناً",
+                "en": "Watch a short video to unlock this service once for free",
+                "de": "Sehen Sie sich ein kurzes Video an, um diesen Service einmalig kostenlos freizuschalten"
+            },
+            "watch_ad_btn": {
+                "ar": "مشاهدة إعلان",
+                "en": "Watch an ad",
+                "de": "Sehen Sie sich eine Anzeige an"
+            },
+            "before_watch_ad_msg": {
+                "ar": "يرجى مشاهدة الفيديو حتى نهايته للفتح بنجاح",
+                "en": "Please watch the video until the end to unlock successfully.",
+                "de": "Bitte schauen Sie sich das Video bis zum Ende an, um die Freischaltung erfolgreich durchzuführen."
+            }
+        },
+        "wize": {
+            "robo_title": {
+                "ar": "التفاعل مع الروبوت",
+                "en": "Interact with the robot"
+            },
+            "robo_talk": {
+                "ar": "التحدث مع الروبوت",
+                "en": "Talk with the robot"
+            },
+            "robo_notes": {
+                "ar": "ملاحظات عن الروبوت",
+                "en": "Notes about the robot"
+            },
+            "robo_notes_err": {
+                "ar": "برجاء إدخال ملاحظات عن الروبوت",
+                "en": "Plase Add Notes about the robot"
+            },
+            "robo_ask": {
+                "ar": "اسأل الروبوت",
+                "en": "Ask The Robot"
+            },
+            "robo_name": {
+                "ar": "اسم الروبوت",
+                "en": "Robot Name"
+            },
+            "robo_name_err": {
+                "ar": "برجاء إدخال اسم الروبوت",
+                "en": "Please Enter Robot Name"
+            },
+            "robo_age": {
+                "ar": "عمر الروبوت",
+                "en": "Robot Age"
+            },
+            "robo_age_err": {
+                "ar": "برجاء إدخال عمر الروبوت",
+                "en": "Please Enter Robot Age"
+            },
+            "day": {
+                "ar": "يوم",
+                "en": "Day"
+            },
+            "robot_start": {
+                "ar": "مرحباً بك كيف أساعدك ؟",
+                "en": "Welcome, How can I help you?"
+            }
+        },
+        "notes": {
+            "my_notes": {
+                "ar": "تابع ملاحظاتك",
+                "en": "Follow up notes"
+            },
+            "pls_add_notes": {
+                "ar": "برجاء إضافة ملاحظاتك",
+                "en": "Please Add Your Notes"
+            },
+            "pls_add_notes_float": {
+                "ar": "برجاء إضافة ملاحظة جديدة للمتابعة",
+                "en": "Please Add Your Notes"
+            },
+            "notes_type": {
+                "ar": "نوع الملاحظات",
+                "en": "Notes Type"
+            }
+        },
+        "login": {
+            "userName": {
+                "ar": "إسم المستخدم",
+                "en": "User Name"
+            },
+            "userPassword": {
+                "ar": "كلمة السر",
+                "en": "Password"
+            },
+            "loginBtn": {
+                "ar": "تسجيل دخول",
+                "en": "Login"
+            },
+            "forgetPasswordBtn": {
+                "ar": "نسيت كلمة المرور",
+                "en": "Forget Password"
+            }
+        },
+        "global": {
+            "setting": {
+                "ar": "الإعدادت",
+                "en": "Setting"
+            },
+            "LE": {
+                "ar": "جنيه",
+                "en": "LE"
+            },
+            "on_the_date": {
+                "ar": "بتاريخ",
+                "en": "on the date"
+            },
+            "daily": {
+                "ar": "يومياً",
+                "en": "Daily"
+            },
+            "weekly": {
+                "ar": "أسبوعياً",
+                "en": "Weekly"
+            },
+            "monthly": {
+                "ar": "شهرياً",
+                "en": "Monthly"
+            },
+            "exitApp": {
+                "ar": "الخروج من التطبيق",
+                "en": "Exit Application"
+            },
+            "logout": {
+                "ar": "تسجيل خروج",
+                "en": "Log Out"
+            },
+            "askLogout": {
+                "ar": "هل تريد تسجيل الخروج؟",
+                "en": "Do you want to log out ?"
+            },
+            "no": {
+                "ar": "لأ",
+                "en": "No"
+            },
+            "yes": {
+                "ar": "نعم",
+                "en": "Yes"
+            },
+            "language": {
+                "ar": "اللغة",
+                "en": "Language"
+            },
+            "otherLanguage": {
+                "ar": "English",
+                "en": "العربية"
+            },
+            "changeLanguage": {
+                "ar": "تغيير اللغة",
+                "en": "Change Language"
+            },
+            "darkTheme": {
+                "ar": "مظهر داكن",
+                "en": "Dark Theme"
+            },
+            "home": {
+                "ar": "الرئيسية",
+                "en": "Home"
+            },
+            "menu": {
+                "ar": "المزيد",
+                "en": "More"
+            },
+            "hour": {
+                "ar": "ساعة",
+                "en": "Hour"
+            },
+            "success": {
+                "en": "The data has been Saved successfully",
+                "ar": "تم حفظ البيان بنجاح"
+            },
+            "update": {
+                "en": "The data has been Updated successfully",
+                "ar": "تم تعديل البيان بنجاح"
+            },
+            "deleted": {
+                "en": "The data has been Deleted successfully",
+                "ar": "تم حذف البيان بنجاح"
+            },
+            "errInsert": {
+                "ar": "خطأ أثناء التسجيل"
+            },
+            "errDelete": {
+                "ar": "خطأ أثناء الحذف"
+            },
+            "search": {
+                "ar": "البحث",
+                "en": "Search"
+            },
+            "new": {
+                "ar": "جديد",
+                "en": "New"
+            },
+            "updateCase": {
+                "ar": "تعديل",
+                "en": "Update"
+            },
+            "recDeleted": {
+                "ar": "تم حذف البيان بنجاح",
+                "en": "The data has been Deleted successfully"
+            },
+            "attachment": {
+                "ar": "المرفقات",
+                "en": "Attachment"
+            },
+            "recCreated": {
+                "ar": "تم حفظ البيان بنجاح",
+                "en": "The data has been Saved successfully"
+            },
+            "recUpdated": {
+                "ar": "تم تعديل البيان بنجاح",
+                "en": "The data has been Updated successfully"
+            },
+            "other": {
+                "ar": "هذا البيان مرتبط بعمليات اخري",
+                "en": "Other Relations "
+            },
+            "NO_USER_DATA_FOUND": {
+                "ar": "برجاء مراجعة كلمة أسم المستخدم أو كلمة السر",
+                "en": "Wrong username or password"
+            },
+            "EXCEPTION_GETTING_USER_DATA": {
+                "ar": "برجاء مراجعة كلمة أسم المستخدم أو كلمة السر",
+                "en": "Wrong username or password"
+            },
+            "CHECK_USERNAME_PASSWORD_EMPTY": {
+                "ar": "يرجى التحقق من أن اسم المستخدم أو كلمة المرور فارغة",
+                "en": "Please Check User Name Or Password Is Empty"
+            },
+            "CHECK_REGISTRATION_RECORD_EMPTY": {
+                "ar": "برجاء مراجعة بيانات التسجيل",
+                "en": "Please Check Registration Data"
+            },
+            "ERROR_EMPTY_USERNAME": {
+                "ar": "برجاء إدخال أسم المستخدم",
+                "en": "Please Enter Your User Name"
+            },
+            "ERROR_EMPTY_PASSWORD": {
+                "ar": "برجاء إدخال كلمة السر",
+                "en": "Please Enter Your Password"
+            },
+            "day": {
+                "ar": "يوم",
+                "en": "Day"
+            },
+            "gram": {
+                "ar": "جرام",
+                "en": "Gram"
+            },
+            "kg": {
+                "ar": "كيلو جرام",
+                "en": "Kilo Gram"
+            },
+            "egg": {
+                "ar": "بيضة",
+                "en": "Egg"
+            },
+            "age": {
+                "ar": "عمر",
+                "en": "age"
+            },
+            "change_font_size": {
+                "ar": "تغيير حجم الخط",
+                "en": "Change Font Size"
+            },
+            "copied": {
+                "ar": "تم نسخ النص بنجاح 👋",
+                "en": "The text copied successfully 👋"
+            },
+            "no_internet": {
+                "ar": "من فضلك تأكد من إتصالك بالإنترنت",
+                "en": "Please Check Your Internet Connection"
+            },
+            "has_internet": {
+                "ar": "تمت إستعادة الإتصال بالإنترنت",
+                "en": "Internet connection has been restored"
+            },
+            "donwload_app": {
+                "ar": "حمل تطبيق الروبوت روبوت متكلم عربي من خلال متجر جوجل بلاي",
+                "en": "Download App From Google Play Store"
+            }
+        },
+        "ccr": {
+            "title": {
+                "ar": "متابعة دجاج التسمين",
+                "en": "Follow up on broiler chickens"
+            },
+            "subtitle": {
+                "ar": "متطلبات دجاج التسمين",
+                "en": "Requirements of broiler chickens age"
+            },
+            "age": {
+                "ar": "العمر",
+                "en": "Age"
+            },
+            "quantity": {
+                "ar": "عدد الطيور",
+                "en": "Quantity"
+            },
+            "age_select": {
+                "ar": "اختر العمر",
+                "en": "Select Age"
+            },
+            "feed_consumption": {
+                "ar": "متوسط استهلاك العلف",
+                "en": "Feed Consumption Average"
+            },
+            "weight": {
+                "ar": "متوسط الوزن",
+                "en": "Weight Average"
+            },
+            "temperature": {
+                "ar": "درجة الحرارة",
+                "en": "Temperature"
+            },
+            "ventilation": {
+                "ar": "التهوية",
+                "en": "Ventilation"
+            },
+            "density": {
+                "ar": "الكثافة العددية",
+                "en": "Density"
+            },
+            "density_summer": {
+                "ar": "صيفاً",
+                "en": "Summer"
+            },
+            "density_winter": {
+                "ar": "شتاءاً",
+                "en": "Winter"
+            },
+            "humidity": {
+                "ar": "نسبة الرطوبة",
+                "en": "Humidity"
+            },
+            "lighting_hours": {
+                "ar": "عدد ساعات الإضاءة",
+                "en": "Lighting Hours"
+            },
+            "feed_type": {
+                "ar": "نوع العلف",
+                "en": "Feed Type"
+            },
+            "medicine": {
+                "ar": "أدوية",
+                "en": "Medicine"
+            },
+            "ccr": {
+                "ar": "معدل تحويل الكتكوت",
+                "en": "Chick conversion rate"
+            },
+            "select_age_err": {
+                "ar": "من فضلك اختر عمر الكتكوت",
+                "en": "Please Select Chicken Age"
+            },
+            "total": {
+                "ar": "الإجمالي",
+                "en": "total"
+            },
+            "ventilation_unit": {
+                "ar": "(متر مكعب/الساعه)",
+                "en": "Cubic meters / hour"
+            },
+            "fan_40": {
+                "ar": "مروحة قطرها 40 سم",
+                "en": "40cm fan"
+            },
+            "fan_80": {
+                "ar": "مروحة قطرها 80 سم",
+                "en": "80cm fan"
+            },
+            "fan_100": {
+                "ar": "مروحة قطرها 100 سم",
+                "en": "100cm fan"
+            },
+            "fan_120": {
+                "ar": "مروحة قطرها 120 سم",
+                "en": "120cm fan"
+            },
+            "fan_140": {
+                "ar": "مروحة قطرها 140 سم",
+                "en": "140cm fan"
+            },
+            "number": {
+                "ar": "عدد",
+                "en": "number"
+            },
+            "ventilation_equation": {
+                "ar": "تحسب كالتالي : ٢ متر مكعب هواء / الساعه لكل كيلو جرام لحم",
+                "en": "It is calculated as follows: 2 cubic meters of air per hour per kilogram of meat"
+            }
+        },
+        "feed_price_avg": {
+            "title": {
+                "ar": "متوسط أسعار العلف",
+                "en": "Average feed prices"
+            },
+            "feed_type": {
+                "ar": "النوع",
+                "en": "Type"
+            },
+            "price": {
+                "ar": "السعر",
+                "en": "Price"
+            },
+            "change": {
+                "ar": "التغيير",
+                "en": "Change"
+            }
+        },
+        "meat_chicken_price": {
+            "title": {
+                "ar": "أسعار الدواجن والبيض والكتاكيت",
+                "en": "Chicken , Eggs and Chicks Prices"
+            },
+            "name": {
+                "ar": "الفئة",
+                "en": "category"
+            },
+            "type": {
+                "ar": "النوع",
+                "en": "Type"
+            },
+            "price": {
+                "ar": "السعر",
+                "en": "Price"
+            },
+            "change": {
+                "ar": "التغيير",
+                "en": "Change"
+            }
+        },
+        "robot": {
+            "title": {
+                "ar": "روبوت",
+                "en": "Robot"
+            },
+            "ask_robot": {
+                "ar": "اسأل روبوت الدواجن...",
+                "en": "Ask Poultry Robot..."
+            },
+            "typing": {
+                "ar": "الروبوت يكتب الآن ...",
+                "en": "Typing ..."
+            },
+            "robot_start": {
+                "ar": "مرحباً بك معك روبوت الدواجن كيف أساعدك ؟",
+                "en": "Welcome to the poultry robot. How can I help you?"
+            }
+        },
+        "feasibility_study": {
+            "title": {
+                "ar": "دراسة جدوى دجاج التسمين",
+                "en": "Broiler Feasibility study"
+            },
+            "subtitle": {
+                "ar": "دراسة جدوى تحديث يومي",
+                "en": "Feasibility study updated daily"
+            },
+            "quantity": {
+                "ar": "العدد",
+                "en": "Quantity"
+            },
+            "type": {
+                "ar": "النوع",
+                "en": "Type"
+            },
+            "egg_type": {
+                "ar": "نوع البيض",
+                "en": "Egg Type"
+            },
+            "age": {
+                "ar": "عمر البيع",
+                "en": "Age of sale"
+            },
+            "calculate": {
+                "ar": "احسب",
+                "en": "Calculate"
+            },
+            "costs": {
+                "ar": "التكاليف",
+                "en": "Costs"
+            },
+            "total_costs": {
+                "ar": "إجمالي التكاليف",
+                "en": "Total Costs"
+            },
+            "daily_costs": {
+                "ar": "التكاليف اليومية",
+                "en": "Daily Costs"
+            },
+            "total_daily_costs": {
+                "ar": "إجمالي التكاليف اليومية",
+                "en": "Total Daily Costs"
+            },
+            "revenues": {
+                "ar": "الإيرادات",
+                "en": "Revenues"
+            },
+            "total_revenues": {
+                "ar": "إجمالي الإيرادات",
+                "en": "Total Revenues"
+            },
+            "profit": {
+                "ar": "الأرباح",
+                "en": "Profit"
+            },
+            "net_profit": {
+                "ar": "صافي الأرباح",
+                "en": "Net Profit"
+            },
+            "chicks_cost": {
+                "ar": "تكلفة الكتاكيت",
+                "en": "Cost of chicks"
+            },
+            "poultry_cost": {
+                "ar": "تكلفة الدجاج",
+                "en": "Cost of chicken"
+            },
+            "feed_cost": {
+                "ar": "تكلفة العلف",
+                "en": "Feed cost"
+            },
+            "treatment_cost": {
+                "ar": "تكلفة الأدوية والعلاجات",
+                "en": "Cost of treatment"
+            },
+            "heating_cost": {
+                "ar": "تكلفة التدفئة والعمالة",
+                "en": "Heating and labor costs"
+            },
+            "dead_chicken": {
+                "ar": "الدجاج النافق",
+                "en": "Dead chicken"
+            },
+            "meat_revenue": {
+                "ar": "مبيعات الدواجن",
+                "en": "Meat Revenue"
+            },
+            "egg_revenue": {
+                "ar": "مبيعات البيض",
+                "en": "Eggs Revenue"
+            },
+            "select_empty_err": {
+                "ar": "من فضلك اختر نوع الدجاج",
+                "en": "Please Select Chicken Type"
+            },
+            "broiler": {
+                "ar": "دجاج التسمين",
+                "en": "Broiler chickens"
+            },
+            "laying_hens": {
+                "ar": "الدجاج البياض",
+                "en": "Laying hens"
+            },
+            "sasso": {
+                "ar": "دجاج الساسو",
+                "en": "Sasso chickens"
+            },
+            "white_egg": {
+                "ar": "بيض أبيض",
+                "en": "White Eggs"
+            },
+            "red_egg": {
+                "ar": "بيض أحمر",
+                "en": "Brwon Eggs"
+            },
+            "home_egg": {
+                "ar": "بيض بلدي",
+                "en": "Home Eggs"
+            },
+            "select_type_err": {
+                "ar": "الرجاء اختيار نوع الدجاج",
+                "en": "Please Select Chicken Type"
+            },
+            "select_quantity_err": {
+                "ar": "الرجاء اختيار عدد الدجاج",
+                "en": "Please Select Chicken Qunatity"
+            },
+            "select_age_err": {
+                "ar": "الرجاء اختيار عمر الدجاج",
+                "en": "Please Select Chicken Age"
+            },
+            "chicks_price": {
+                "ar": "سعر الكتكوت",
+                "en": "Chick Price"
+            },
+            "chicken_price": {
+                "ar": "سعر كيلو الدواجن",
+                "en": "Chicken Price"
+            },
+            "white_egg_price": {
+                "ar": "سعر طبق البيض الأبيض",
+                "en": "White Eggs price"
+            },
+            "brwon_egg_price": {
+                "ar": "سعر طبق البيض الأحمر",
+                "en": "Brwon Eggs price"
+            },
+            "home_egg_price": {
+                "ar": "سعر طبق البيض البلدي",
+                "en": "Home Eggs price"
+            },
+            "feed_23_price": {
+                "ar": "سعر طن العلف البادي",
+                "en": "Feed Price 23%"
+            },
+            "feed_21_price": {
+                "ar": "سعر طن العلف النامي",
+                "en": "Feed Price 21%"
+            },
+            "feed_14_price": {
+                "ar": "سعر طن العلف البياض 14",
+                "en": "Feed Price 14%"
+            },
+            "feed_16_price": {
+                "ar": "سعر طن العلف البياض 16",
+                "en": "Feed Price 16%"
+            },
+            "feed_18_price": {
+                "ar": "سعر طن العلف البياض 18",
+                "en": "Feed Price 18%"
+            },
+            "treatment_price": {
+                "ar": "تم حساب 10 جنيه لكل كتكوت",
+                "en": "10 LE for each chick"
+            },
+            "laying_treatment_price": {
+                "ar": "تم حساب 20 قرش لكل فرخة",
+                "en": "20 piaster for each chicken"
+            },
+            "heating_price": {
+                "ar": "تم حساب 10 جنيه لكل كتكوت",
+                "en": "10 LE for each chick"
+            },
+            "laying_heating_price": {
+                "ar": "تم حساب 20 قرش لكل فرخة",
+                "en": "20 piaster for each chicken"
+            },
+            "dead_price": {
+                "ar": "تم خصم 10% نافق وسردة",
+                "en": "10% dead chicken calculated"
+            },
+            "chicken_weignt_avg": {
+                "ar": "متوسط وزن الدجاجة الواحدة",
+                "en": "Chicken Weight Average"
+            },
+            "eggs_quantity_avg": {
+                "ar": "متوسط عدد البيض",
+                "en": "Eggs Average"
+            }
+        },
+        "speech": {
+            "say": {
+                "ar": "تحدث مع الروبوت",
+                "en": "Say something"
+            }
+        },
+        "stock": {
+            "title": {
+                "ar": "بورصة الأسعار",
+                "en": "Stock"
+            }
+        },
+        "feed_calculator": {
+            "title": {
+                "ar": "حاسبة استهلاك العلف",
+                "en": "Feed Calculator"
+            },
+            "feed_consumption": {
+                "ar": "كمية استهلاك العلف من بداية الدورة حتى عمر ",
+                "en": "The amount of feed consumption from the beginning of the cycle until age"
+            },
+            "feed_consumption2": {
+                "ar": "كمية استهلاك العلف في عمر ",
+                "en": "Amount of feed consumption at age"
+            },
+            "consumption_type": {
+                "ar": "استهلاك العلف",
+                "en": "feed consumption"
+            },
+            "cumulative": {
+                "ar": "تراكمي",
+                "en": "cumulative"
+            },
+            "daily": {
+                "ar": "يومي",
+                "en": "daily"
+            }
+        },
+        "area_calculator": {
+            "title": {
+                "ar": "حاسبة كثافة الطيور (المساحة)",
+                "en": "Bird Density Calculator"
+            },
+            "area_calculator_note": {
+                "ar": "إن زيادة عدد الطيور في المتر المربع عن العدد المسموح به يؤدي لما يلي:",
+                "en": "Increasing the number of birds per square meter beyond the permissible number leads to the following:"
+            },
+            "area_calculator_note1": {
+                "ar": "انخفاض في استهلاك العلف.",
+                "en": "Decrease in feed consumption."
+            },
+            "area_calculator_note2": {
+                "ar": "انخفاض في معدل النمو.",
+                "en": "Decrease in growth rate."
+            },
+            "area_calculator_note3": {
+                "ar": "انخفاض في الكفاءة التحويلية.",
+                "en": "Decrease in conversion efficiency."
+            },
+            "area_calculator_note4": {
+                "ar": "زيادة نسبة النفوق.",
+                "en": "Increased mortality rate."
+            },
+            "area_calculator_note5": {
+                "ar": "زيادة في ظاهرة الافتراس.",
+                "en": "An increase in the phenomenon of predation."
+            },
+            "area_calculator_note6": {
+                "ar": "ارتفاع في درجة حرارة المسكن.",
+                "en": "An increase in the temperature of the dwelling."
+            },
+            "breeding_type": {
+                "ar": "نوع التربية",
+                "en": "Breeding Type"
+            },
+            "breeding_type1": {
+                "ar": "أرضي",
+                "en": "Floor"
+            },
+            "breeding_type2": {
+                "ar": "بطاريات",
+                "en": "Battery cages"
+            },
+            "bird_type": {
+                "ar": "نوع الطائر",
+                "en": "Bird Type"
+            },
+            "enter_data": {
+                "ar": "من فضلك أدخل البيانات التالية",
+                "en": "Please enter the following data"
+            },
+            "net_area": {
+                "ar": "صافي المساحة",
+                "en": "Net area"
+            },
+            "m_square": {
+                "ar": "م2",
+                "en": "㎡"
+            },
+            "number_of_birds": {
+                "ar": "عدد الطيور لكل متر مربع",
+                "en": "Number of birds per square metre"
+            },
+            "bird": {
+                "ar": "طائر",
+                "en": "Bird"
+            },
+            "use": {
+                "ar": "جرب حاسبة كثافة الطيور",
+                "en": "Try Bird Density Calculator"
+            }
+        },
+        "age_calculator": {
+            "title": {
+                "ar": "متابعة الدفعات",
+                "en": "Follow up groups"
+            },
+            "subtitle": {
+                "ar": "تابع حالة الدفعات يومياً",
+                "en": "Follow up chicken groups status"
+            },
+            "poultry_type": {
+                "ar": "نوع الدجاج",
+                "en": "Poultry Type"
+            },
+            "age": {
+                "ar": "العمر باليوم",
+                "en": "Age By Day"
+            },
+            "notes": {
+                "ar": "ملاحظات",
+                "en": "Notes"
+            },
+            "write": {
+                "ar": "اكتب شيئاً...",
+                "en": "write something..."
+            },
+            "cancel": {
+                "ar": "إلغاء",
+                "en": "Cancel"
+            },
+            "confirm": {
+                "ar": "تأكيد",
+                "en": "Confirm"
+            },
+            "saved": {
+                "ar": "تم إضافة الأعمار بنجاح",
+                "en": "Ages saved successfully"
+            },
+            "poultry_type_err": {
+                "ar": "برجاء إختيار نوع الدجاج",
+                "en": "Please Select Chicken Type"
+            },
+            "age_err": {
+                "ar": "برجاء إدخال عمر الدجاج ",
+                "en": "Please Enter Chicken Age "
+            },
+            "notes_err": {
+                "ar": "برجاء إدخال الملاحظات",
+                "en": "Please Enter Notes"
+            },
+            "no_ages_err": {
+                "ar": "برجاء إضافة عمر جديد للمتابعة",
+                "en": "Please Add New Age to follow"
+            }
+        },
+        "laying_hens": {
+            "title": {
+                "ar": "دراسة جدوى إنتاج بيض المائدة",
+                "en": "feasibility study for laying hens"
+            },
+            "subtitle": {
+                "ar": "دارسة جدوى يومية للدجاج البياض",
+                "en": "Daily feasibility study for laying hens"
+            },
+            "laying_fodder_14": {
+                "ar": "بياض 14",
+                "en": "Laying fodder 14"
+            },
+            "laying_fodder_16": {
+                "ar": "بياض 16",
+                "en": "Laying fodder 16"
+            },
+            "laying_fodder_18": {
+                "ar": "بياض 18",
+                "en": "Laying fodder 18"
+            },
+            "egg_production_rate": {
+                "ar": "معدل انتاج البيض",
+                "en": "Egg production rate"
+            },
+            "selected_type_err": {
+                "ar": "الرجاء اختيار نوع البيض",
+                "en": "Please Select Eggs Type"
+            },
+            "selected_quantity_err": {
+                "ar": "الرجاء إدخال كمية الدجاج",
+                "en": "Please Enter Chicken Quantity"
+            },
+            "selected_egg_ratio_err": {
+                "ar": "الرجاء إدخال معدل إنتاج البيض",
+                "en": "Please Enter Eggs Ratio"
+            },
+            "selected_fodder_err": {
+                "ar": "الرجاء اختيار نوع العلف",
+                "en": "Please Select Chicken Fodder"
+            }
+        },
+        "laying_hens_cycle": {
+            "title": {
+                "ar": "متابعة الدجاج البياض",
+                "en": "Follow up on laying hens"
+            },
+            "subtitle": {
+                "ar": "متطلبات الدجاج البياض",
+                "en": "Requirements of laying hens age"
+            }
+        },
+        "baladi_cycle": {
+            "title": {
+                "ar": "متابعة الدجاج البلدي",
+                "en": "Follow local chicken"
+            },
+            "subtitle": {
+                "ar": "متطلبات الدجاج البلدي",
+                "en": "Requirements of local chicken age"
+            }
+        },
+        "sasso_cycle": {
+            "title": {
+                "ar": "متابعة الدجاج الساسو",
+                "en": "Follow up on Sasso chicken"
+            },
+            "subtitle": {
+                "ar": "متطلبات الدجاج الساسو",
+                "en": "Requirements of Sasso chicken age"
+            }
+        },
+        "menu": {
+            "title": {
+                "ar": "القائمة الرئيسية",
+                "en": "Menu"
+            },
+            "feasibility_studies": {
+                "ar": "دراسات جدوى",
+                "en": "feasibility studies"
+            },
+            "robot": {
+                "ar": "روبوت",
+                "en": "robot"
+            },
+            "latest_prices": {
+                "ar": "آخر الأسعار",
+                "en": "Latest prices"
+            },
+            "follow_poultry": {
+                "ar": "متابعة الدواجن",
+                "en": "Follow up on poultry"
+            },
+            "follow_quail": {
+                "ar": "متابعة السمان",
+                "en": "Follow up on Quail"
+            }
+        },
+        "about": {
+            "title": {
+                "ar": "مشروع دواجن",
+                "en": "Poultry Project"
+            },
+            "subtitle": {
+                "ar": "كل ما يخص تربية الدواجن هتلاقيه في مشروع دواجن",
+                "en": "You will find everything related to raising poultry in a poultry project"
+            },
+            "detail": {
+                "ar": "",
+                "en": ""
+            }
+        },
+        "sale_points": {
+            "title": {
+                "ar": "منافذ البيع",
+                "en": "sale points"
+            },
+            "feed_outlet": {
+                "ar": "منافذ بيع الأعلاف",
+                "en": "Feed outlets"
+            },
+            "feed_outlet_almagd": {
+                "ar": "أعلاف المجد",
+                "en": "Almagd Feed"
+            },
+            "feed_outlet_alfath": {
+                "ar": "الفتح للأعلاف",
+                "en": "Alfath for Feed"
+            },
+            "feed_outlet_eladl": {
+                "ar": "العدل للأعلاف",
+                "en": "Eladl for Feed"
+            },
+            "feed_outlet_alhamd": {
+                "ar": "الحمد للأعلاف",
+                "en": "Alhamd for Feed"
+            },
+            "feed_outlet_elfagr": {
+                "ar": "أعلاف الفجر",
+                "en": "Elfagr Feed"
+            },
+            "feed_outlet_aleman": {
+                "ar": "الإيمان للأعلاف",
+                "en": "Aleman Feed"
+            },
+            "feed_outlet_alqaed": {
+                "ar": "القائد للأعلاف",
+                "en": "Alqaed Feed"
+            },
+            "feed_outlet_alfareed": {
+                "ar": "الفريد للأعلاف",
+                "en": "Alfaredd Feed"
+            }
+        },
+        "quail": {
+            "title": {
+                "ar": "متابعة طائر السمان",
+                "en": "Follow the quail"
+            },
+            "subtitle": {
+                "ar": "متطلبات طائر السمان",
+                "en": "Quail Requirements"
+            },
+            "disease": {
+                "ar": "أمراض طائر السمان",
+                "en": "Quail diseases"
+            },
+            "disease_type": {
+                "ar": "المرض",
+                "en": "the disease"
+            },
+            "symptoms": {
+                "ar": "الأعراض",
+                "en": "Symptoms"
+            },
+            "treatment": {
+                "ar": "العلاج",
+                "en": "Treatment"
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "protocol": "https://",
+    "_baseUrl": "localhost:8901",
+    "baseUrl": "posvisit.frs-ms.com/api/",
+    "defualtUploadSys": "00"
+}
